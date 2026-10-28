@@ -1,0 +1,17 @@
+{
+  "name": "educonnect-mern",
+  "version": "1.0.0",
+  "description": "EduConnect - Academic Student Portal in MERN Stack",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm start --prefix server",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "Arpit Srivastava",
+  "license": "ISC"
+}
